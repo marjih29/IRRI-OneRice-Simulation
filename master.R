@@ -5,13 +5,13 @@ source("Simul_Params.R")
 for (g in varGxY) {
   cat("----------------------------------------------------\n")
   cat(paste0("[][][][][] GxE LEVEL ", g, " [][][][][] \n"))
-  
+
   source("Burnin_IRRI_OneRice.R")
   source("Baseline_OneRice_IRRI.R")
   source("5Y_OneRice_IRRI.R")
-  source("3Y_OneRice_IRRI.R")
-  source("2YWP_OneRice_IRRI.R")
-  source("2YBP_OneRice_IRRI.R")
+  # source("3Y_OneRice_IRRI.R")
+  # source("2YWP_OneRice_IRRI.R")
+  # source("2YBP_OneRice_IRRI.R")
 }
 
 time2 = Sys.time()
